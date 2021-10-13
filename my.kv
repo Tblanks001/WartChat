@@ -1,0 +1,23 @@
+<ChatWindow>:
+    # Creates a name for <LoginWindow> so that is can be referenced
+    name: "room"
+
+    FloatLayout:
+
+
+        TextInput:
+            id: post
+            font_size: (root.width**2 + root.height**2) / 13**4
+            multiline: False
+            pos_hint: {"x": 0.02 , "top":0.16}
+            size_hint: 0.8, 0.15
+
+
+        Button:
+            pos_hint:{"x":0.7,"y":0.009}
+            size_hint: 0.3, 0.2
+            font_size: (root.width**2 + root.height**2) / 13**4
+            text: "post"
+
+
+
